@@ -14,8 +14,8 @@ const serverlessConfiguration: AWS = {
   plugins: ['serverless-webpack'],
   provider: {
     name: 'aws',
-    vpcEndpointIds:['vpc-06bbb4f2b48def25b'],
-    vpc:  {securityGroupIds: ['sg-07bb626f923253322'] ,subnetIds:['subnet-0698b2c7b84059412'] 
+    vpcEndpointIds:['vpc-'],
+    vpc:  {securityGroupIds: ['sg-'] ,subnetIds:['subnet-'] 
     },
     runtime: 'nodejs14.x',
     apiGateway: {
